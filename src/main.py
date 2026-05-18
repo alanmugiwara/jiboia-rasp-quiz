@@ -1,4 +1,4 @@
-from gpiozero import LED, PWMOutputDevice
+from gpiozero import PWMOutputDevice, LED
 from gpiozero.tones import Tone
 from time import sleep
 from colorama import Fore, Style
@@ -30,7 +30,6 @@ def resp_certa():
 # Função p/ resposta errada: acende o LED vermelho e toca um bip longo
 def resp_errada():
     led_red.on()
-
     # bip longo
     buzzer_song.on()
     sleep(1)

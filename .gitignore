@@ -1,2 +1,4 @@
 /.venv
+/src/test_song.py
+/src/test_led.py
 .lgd-nfy0
